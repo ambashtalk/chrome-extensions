@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name" : "Redirect",
+    "version" : "0.1",
+    "description" : "Redirect to google.com if you visit wikipidea",
+    "content_scripts" : [
+        {
+        "matches" : ["*://*.wikipedia.org/*"],
+        "js" : ["eventPage.js"]
+        }
+    ],
+    "permissions": [
+        "tabs"
+    ]
+}

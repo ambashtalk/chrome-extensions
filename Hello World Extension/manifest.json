@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Hello World",
+  "version": "0.1",
+  "description": "This extensions redirects to a new web page",
+  "icons": {
+    "128": "/images/logo128.png",
+    "48": "/images/logo48.png",
+    "32": "/images/logo32.png",
+    "16": "/images/logo16.png"
+  },
+  "browser_action": {
+    "default_icon": "/images/logo16.png" ,
+    "default_popup": "popup.html"
+  }
+}
